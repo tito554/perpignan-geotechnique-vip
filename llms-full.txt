@@ -1,0 +1,52 @@
+# Geotechnique — Perpignan
+
+> Geotechnical engineering services in Perpignan, France.
+
+## Services
+- [Amelioration Sols](https://perpignan.geotechnique.vip/amelioration-sols/)
+- [Ancrages](https://perpignan.geotechnique.vip/ancrages/)
+- [Cbr Routier](https://perpignan.geotechnique.vip/cbr-routier/)
+- [Chaussee Rigide](https://perpignan.geotechnique.vip/chaussee-rigide/)
+- [Chaussee Souple](https://perpignan.geotechnique.vip/chaussee-souple/)
+- [Colonnes Ballastees](https://perpignan.geotechnique.vip/colonnes-ballastees/)
+- [Confidentialite](https://perpignan.geotechnique.vip/confidentialite/)
+- [Densite Cone Sable](https://perpignan.geotechnique.vip/densite-cone-sable/)
+- [Essai Cpt](https://perpignan.geotechnique.vip/essai-cpt/)
+- [Essais Proctor](https://perpignan.geotechnique.vip/essais-proctor/)
+- [Excavations](https://perpignan.geotechnique.vip/excavations/)
+- [Excavations Profondes](https://perpignan.geotechnique.vip/excavations-profondes/)
+- [Fondations](https://perpignan.geotechnique.vip/fondations/)
+- [Geotechnique Routiere](https://perpignan.geotechnique.vip/geotechnique-routiere/)
+- [Granulometrie](https://perpignan.geotechnique.vip/granulometrie/)
+- [Injections](https://perpignan.geotechnique.vip/injections/)
+- [Investigation](https://perpignan.geotechnique.vip/investigation/)
+- [Isolation Sismique](https://perpignan.geotechnique.vip/isolation-sismique/)
+- [Labo In Situ](https://perpignan.geotechnique.vip/labo-in-situ/)
+- [Laboratoire](https://perpignan.geotechnique.vip/laboratoire/)
+- [Limites Atterberg](https://perpignan.geotechnique.vip/limites-atterberg/)
+- [Liquefaction](https://perpignan.geotechnique.vip/liquefaction/)
+- [Masw](https://perpignan.geotechnique.vip/masw/)
+- [Microzonage Sismique](https://perpignan.geotechnique.vip/microzonage-sismique/)
+- [Murs Soutenement](https://perpignan.geotechnique.vip/murs-soutenement/)
+- [Permeabilite In Situ](https://perpignan.geotechnique.vip/permeabilite-in-situ/)
+- [Pieux](https://perpignan.geotechnique.vip/pieux/)
+- [Puits Inspection](https://perpignan.geotechnique.vip/puits-inspection/)
+- [Radiers](https://perpignan.geotechnique.vip/radiers/)
+- [Refraction Sismique](https://perpignan.geotechnique.vip/refraction-sismique/)
+- [Resistivite](https://perpignan.geotechnique.vip/resistivite/)
+- [Semelles](https://perpignan.geotechnique.vip/semelles/)
+- [Sismique](https://perpignan.geotechnique.vip/sismique/)
+- [Sondages Spt](https://perpignan.geotechnique.vip/sondages-spt/)
+- [Stabilite Talus](https://perpignan.geotechnique.vip/stabilite-talus/)
+- [Surveillance Excavations](https://perpignan.geotechnique.vip/surveillance-excavations/)
+- [Talus](https://perpignan.geotechnique.vip/talus/)
+- [Triaxial](https://perpignan.geotechnique.vip/triaxial/)
+- [Tunnels Sol Mou](https://perpignan.geotechnique.vip/tunnels-sol-mou/)
+- [Vibrocompactage](https://perpignan.geotechnique.vip/vibrocompactage/)
+
+## Contact
+- Website: https://perpignan.geotechnique.vip/
+
+## About
+This site provides geotechnical engineering services in Perpignan, France.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
