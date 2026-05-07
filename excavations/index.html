@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Excavations souterraines à Perpignan – France</title>
 <meta name="description" content="À Perpignan, les excavations souterraines doivent composer avec des formations quaternaires souvent meubles et la proximité de nappes phréatiques. Cette ca">
@@ -19,62 +19,61 @@
 <meta name="twitter:description" content="À Perpignan, les excavations souterraines doivent composer avec des formations quaternaires souvent meubles et la proximité de nappes phréatiques. Cette ca">
 <meta name="twitter:image" content="https://perpignan.geotechnique.vip/img/anclajes-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Nunito',Georgia,serif;background:#FAF9F6;color:#1E293B;line-height:1.7;font-size:16px}
-a{color:#EAB308;text-decoration:none}
-a:hover{color:#D4A017}
-/* HEADER DARK */
-.header{background:#0C1B33;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-.brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#EAB308;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Cormorant Garamond',sans-serif}
+@media(max-width:900px){.layout{grid-template-columns:1fr}
+.cat-toggle:hover{color:#EAB308;background:#F9FAFB}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
 .brand-text{margin-top:.3rem}
 .brand-name{font-family:'Cormorant Garamond',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#EAB308}
-.header h1{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
-/* SIDEBAR — modern clean */
-aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
-.sb-home{display:block;padding:1rem 1.25rem;font-family:'Cormorant Garamond',serif;font-weight:700;color:#FFF;background:#0C1B33;letter-spacing:.02em;text-decoration:none;font-size:1rem}
-.sb-home:hover{color:#EAB308}
-.cat-item{border-bottom:1px solid #F3F4F6}
 .cat-item:last-child{border-bottom:none}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
-.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
-.cat-name:hover{color:#EAB308;background:#F9FAFB}
-.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
-.cat-toggle:hover{color:#EAB308;background:#F9FAFB}
-.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
-.cat-arrow svg{width:10px;height:10px;display:block}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
-.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+footer{background:#0C1B33;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
+.crumb-9284{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+details.faq[open] summary{margin-bottom:.7rem;color:#D4A017}
 .cat-sub a:hover{color:#EAB308;border-left-color:#EAB308;background:#F3F4F6}
+footer a{color:#EAB308}
+main h2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.6rem;color:#1E293B;margin:2rem 0 1rem;letter-spacing:.01em}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
 /* MAIN */
 main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.6rem;color:#1E293B;margin:2rem 0 1rem;letter-spacing:.01em}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+*{margin:0;padding:0;box-sizing:border-box}
+/* SIDEBAR — modern clean */
+aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.header h1{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
 main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-main p:first-child{font-size:1.05rem;color:#333}
-.cta{background:#0C1B33;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
-.cta h3{font-family:'Cormorant Garamond',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
-.cta p{color:#FFF !important;text-align:center !important}
-.cta a{color:#EAB308;font-weight:600}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Nunito',serif}
-table th{background:#0C1B33;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#1E293B}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+a{color:#EAB308;text-decoration:none}
+.crumb-9284 a:hover{color:#EAB308}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#EAB308;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Cormorant Garamond',sans-serif}
 details.faq summary{font-weight:700;color:#1E293B;list-style:none;font-family:'Cormorant Garamond',serif}
-details.faq[open] summary{margin-bottom:.7rem;color:#D4A017}
-details.faq p{color:#444;margin:0}
-footer{background:#0C1B33;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-footer a{color:#EAB308}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://perpignan.geotechnique.vip/excavations/", "url": "https://perpignan.geotechnique.vip/excavations/", "name": "Excavations souterraines à Perpignan – France", "inLanguage": "fr", "description": "À Perpignan, les excavations souterraines doivent composer avec des formations quaternaires souvent meubles et la proximité de nappes phréatiques. Cette ca", "isPartOf": {"@type": "WebSite", "@id": "https://perpignan.geotechnique.vip/#website", "url": "https://perpignan.geotechnique.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://perpignan.geotechnique.vip/"}, {"@type": "ListItem", "position": 2, "name": "Excavations souterraines", "item": "https://perpignan.geotechnique.vip/excavations/"}]}, {"@type": "ItemList", "name": "Excavations souterraines", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://perpignan.geotechnique.vip/tunnels-sol-mou/", "name": "Analyse géotechnique pour tunnels en sols mous"}, {"@type": "ListItem", "position": 2, "url": "https://perpignan.geotechnique.vip/excavations-profondes/", "name": "Conception géotechnique des excavations profondes"}, {"@type": "ListItem", "position": 3, "url": "https://perpignan.geotechnique.vip/surveillance-excavations/", "name": "Surveillance géotechnique des excavations"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.crumb-9284 a{color:#FFF;text-decoration:underline;font-weight:600}
+.sb-home:hover{color:#EAB308}
+/* HEADER DARK */
+.header{background:#0C1B33;color:#FFF;padding:3rem 3rem 4rem}
+.cta a{color:#EAB308;font-weight:600}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+.cat-item{border-bottom:1px solid #F3F4F6}
+table th{background:#0C1B33;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+details.faq p{color:#444;margin:0}aside{position:static}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+.cat-name:hover{color:#EAB308;background:#F9FAFB}
+body{font-family:'Nunito',Georgia,serif;background:#FAF9F6;color:#1E293B;line-height:1.7;font-size:16px}
+.cta h3{font-family:'Cormorant Garamond',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+.cat-arrow svg{width:10px;height:10px;display:block}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+.header-email{color:#FFF;font-size:.88rem}
+a:hover{color:#D4A017}
+.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+.cta p{color:#FFF !important;text-align:center !important}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Cormorant Garamond',serif;font-weight:700;color:#FFF;background:#0C1B33;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#1E293B}
+.cta{background:#0C1B33;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Nunito',serif}
+main p:first-child{font-size:1.05rem;color:#333}
+.brand{display:flex;align-items:flex-start;gap:1rem}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"inLanguage":"fr","url":"https://perpignan.geotechnique.vip/excavations/","@id":"https://perpignan.geotechnique.vip/excavations/","isPartOf":{"@type":"WebSite","url":"https://perpignan.geotechnique.vip","@id":"https://perpignan.geotechnique.vip/#website"},"name":"Excavations souterraines à Perpignan – France","description":"À Perpignan, les excavations souterraines doivent composer avec des formations quaternaires souvent meubles et la proximité de nappes phréatiques. Cette ca","@type":"WebPage"},{"itemListElement":[{"@type":"ListItem","name":"Home","item":"https://perpignan.geotechnique.vip/","position":1},{"@type":"ListItem","name":"Excavations souterraines","item":"https://perpignan.geotechnique.vip/excavations/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"@type":"ListItem","name":"Analyse géotechnique pour tunnels en sols mous","url":"https://perpignan.geotechnique.vip/tunnels-sol-mou/","position":1},{"@type":"ListItem","name":"Conception géotechnique des excavations profondes","url":"https://perpignan.geotechnique.vip/excavations-profondes/","position":2},{"@type":"ListItem","name":"Surveillance géotechnique des excavations","url":"https://perpignan.geotechnique.vip/surveillance-excavations/","position":3}],"name":"Excavations souterraines","@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <header class="header">
     <div class="header-top">
@@ -87,7 +86,7 @@ footer a{color:#EAB308}
         </div>
         <a href="mailto:contact@geotechnique.vip" class="header-email">contact@geotechnique.vip</a>
     </div>
-    <div class="crumb"><a href="/">Accueil</a> › <span>Excavations souterraines</span></div>
+    <div class="crumb-9284"><a href="/">Accueil</a> › <span>Excavations souterraines</span></div>
     <h1>Excavations souterraines à Perpignan</h1>
 </header>
 
@@ -98,50 +97,14 @@ footer a{color:#EAB308}
 
 <p>Ces expertises s'appliquent aux parkings souterrains, galeries techniques, réseaux d'assainissement ou futures lignes de transport en site urbain dense. Pour sécuriser chaque phase de creusement et protéger les avoisinants, la <a href="surveillance-excavations">surveillance géotechnique des excavations</a> s'impose comme le fil conducteur du chantier, garantissant une adaptation continue aux conditions réelles rencontrées sous la surface catalane.</p>
 
-        <blockquote style="border-left:4px solid #EAB308;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Le scellement dans les graves du Roussillon autorise des longueurs optimisées, mais la variabilité latérale impose un contrôle systématique par essai de traction.</blockquote>
-
         
-
-        
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"><img src="/img/anclajes-2.webp" alt="Conception d’ancrages actifs et passifs à Perpignan" loading="lazy" style="width:100%;max-height:200px;object-fit:cover;display:block"></figure>
-        <h2>Considérations locales</h2><p>Une erreur classique sur les chantiers perpignanais consiste à traiter un voile de soutènement comme un ouvrage rigide, sans anticiper les déplacements en tête qu’autorise un ancrage passif. Dans les limons de la plaine du Roussillon, un tirant mal dimensionné peut laisser filer plusieurs centimètres avant de mobiliser sa résistance, ce qui fissure le bâti mitoyen. Autre écueil : négliger l’influence des canaux d’arrosage sur la pression interstitielle derrière l’écran. L’eau s’infiltre, modifie la contrainte effective, et un tirant calculé en conditions drainées se retrouve sollicité au-delà de sa limite. En zone sismique pyrénéenne, le chargement cyclique peut dégrader le frottement latéral si le terrain est sensible à la liquéfaction. Nous croisons systématiquement l’étude d’ancrage avec une vérification de <a data-interlink="1" href="/liquefaction/">liquéfaction</a> dès que la nappe est sub-affleurante.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-9284" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#EAB30815,#EAB30808);border-left:4px solid #EAB308;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Besoin d'une évaluation géotechnique ?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Réponse sous 24h.</p>
         <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnique.vip" style="display:inline-block;background:#EAB308;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-mail: contact@geotechnique.vip</a></div>
       </div>
     </section>
-
-        
-
-        <h2>Normes applicables</h2><p>NF EN 1997-1 (Eurocode 7 : calcul géotechnique), XP P 94-220 (Essai de traction des ancrages), EN 1537 (Exécution des travaux géotechniques spéciaux - Tirants d'ancrage), Fascicule 68 du CCTG (Exécution des tirants d'ancrage)</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#EAB308; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#EAB308; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#EAB308; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Services techniques associés</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Dimensionnement géotechnique</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Calcul de la capacité ultime au frottement latéral dans les graves, sables et argiles de Perpignan. Définition du nombre et de l’inclinaison des tirants selon l’Eurocode 7.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Spécification des protections anticorrosion</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Choix de la classe de protection selon l’agressivité du sol et le régime de nappe. Application de l’EN 1537 pour garantir la durabilité en zone inondable.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Programme d’essais de traction</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Rédaction du cahier des charges pour les essais de convenance et de contrôle. Interprétation des courbes de fluage et validation des critères de stabilité.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#EAB308;font-weight:700;font-size:.85rem;letter-spacing:.1em">04</div><h3 style="color:#0C1B33;font-size:1.1rem;margin:.3rem 0 .5rem">Suivi et auscultation des tirants</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Instrumentation par cellules de charge sur tirants témoins. Relevés périodiques pour vérifier le maintien de la précontrainte dans le temps, notamment après épisodes pluvieux intenses.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Paramètres typiques</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #EAB308;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#EAB308;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Paramètre</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valeur typique</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Type d'ancrage</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Actif précontraint / Passif scellé</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Capacité nominale courante</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">100 à 450 kN par tirant</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Longueur de scellement type</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4 à 10 m selon le faciès</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Protection anticorrosion</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Double barrière (gaine PEHD + coulis)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Essai de contrôle</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Traction selon XP P 94-220</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Sismicité de site</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Zone 3 ou 4 (décret 2010-1255 modifié)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norme de calcul</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Eurocode 7 (NF EN 1997-1)</td></tr></tbody></table></div>
-
-        <h2>Questions fréquentes</h2><details class="faq"><summary>Quelle différence entre un ancrage actif et passif pour un mur de soutènement à Perpignan ?</summary><p>L’ancrage actif est mis en tension immédiatement après réalisation, ce qui bloque les déplacements du soutènement. On l’utilise quand le bâti voisin ne tolère aucune déformation. L’ancrage passif se mobilise progressivement, quand le terrain commence à bouger. À Perpignan, sur les limons compressibles du lit majeur de la Têt, nous recommandons des ancrages actifs pour toute excavation profonde en mitoyenneté.</p></details><details class="faq"><summary>Quel est le coût d'une étude de conception d'ancrages à Perpignan ?</summary><p>Le budget varie selon la complexité du site et le nombre de tirants. Pour une mission complète incluant l’étude géotechnique préalable, le dimensionnement et le suivi des essais, il faut compter entre 930 € et 3 580 €. Ce montant dépend aussi de l’accessibilité et du besoin en essais in situ comme le CPT.</p></details><details class="faq"><summary>Comment gérez-vous le risque de corrosion des tirants dans les sols de Perpignan ?</summary><p>Les sols alluviaux de la plaine sont souvent peu agressifs chimiquement, mais le battement de nappe en zone inondable impose une protection de classe II minimum. Nous spécifions une gaine PEHD nervurée et un coulis de ciment injecté sous pression, avec vérification de la continuité électrique. Sur les ouvrages définitifs, une double barrière est systématiquement prescrite.</p></details><details class="faq"><summary>Quelle est la durée de validité d’un tirant d’ancrage ?</summary><p>Un tirant provisoire est conçu pour une durée de service inférieure à deux ans. Un tirant définitif doit justifier d’une durée de 50 ou 100 ans selon la catégorie d’ouvrage. Cette durabilité repose sur le dimensionnement mécanique, la protection anticorrosion et la surveillance périodique. À Perpignan, le suivi des tirants témoins permet de vérifier l’absence de perte de tension significative sur le long terme.</p></details><details class="faq"><summary>Faut-il une déclaration préalable pour réaliser des ancrages sous le domaine public ?</summary><p>Oui, toute implantation de tirant sous voirie ou espace public nécessite une autorisation de tréfonds. Le dossier doit inclure la note de calcul géotechnique et le plan d’implantation. Nous constituons ce dossier pour nos clients, en coordination avec les services techniques de la ville de Perpignan et le gestionnaire de réseau concerné.</p></details>
-    
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Services disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../tunnels-sol-mou/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Analyse géotechnique pour tunnels en sols mous</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../excavations-profondes/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Conception géotechnique des excavations profondes</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../surveillance-excavations/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Surveillance géotechnique des excavations</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
 </div>
 
@@ -170,7 +133,7 @@ footer a{color:#EAB308}
       </div>
     </section>
 
-<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Perpignan, France · <a href="mailto:contact@geotechnique.vip" style="color:#FFF;text-decoration:underline">contact@geotechnique.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Références:</strong> <a href="https://www.afnor.org/" rel="nofollow noopener" target="_blank">Normes AFNOR</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Géotechnique</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Dernière mise à jour: 2026-05-01</div></footer>
+<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Perpignan, France · <a href="mailto:contact@geotechnique.vip" style="color:#FFF;text-decoration:underline">contact@geotechnique.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Références:</strong> <a href="https://www.afnor.org/" rel="nofollow noopener" target="_blank">Normes AFNOR</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Géotechnique</a></div><div class="updated-info" data-updated="2026-04-06" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Dernière mise à jour: 2026-04-06</div></footer>
 
 <script id="sidebar-toggle-v3">
 (function(){
