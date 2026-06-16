@@ -16,6 +16,7 @@
 - [Excavations](https://perpignan.geotechnique.vip/excavations/)
 - [Excavations Profondes](https://perpignan.geotechnique.vip/excavations-profondes/)
 - [Fondations](https://perpignan.geotechnique.vip/fondations/)
+- [Geophysique](https://perpignan.geotechnique.vip/geophysique/)
 - [Geotechnique Routiere](https://perpignan.geotechnique.vip/geotechnique-routiere/)
 - [Granulometrie](https://perpignan.geotechnique.vip/granulometrie/)
 - [Injections](https://perpignan.geotechnique.vip/injections/)
